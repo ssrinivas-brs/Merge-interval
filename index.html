@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Merge interval</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="d-flex bg-gradient">
+        <div class="d-flex flex-grow-1">
+            <div class="ReactTitle ">
+              <h3>Merge interval </h3>
+            </div>
+            <div class="d-flex ps-3 align-items-center">
+              <div class="flex-grow-1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" class="container" style="margin-bottom: 100px;">
+      <p class="text-start">
+      
+        Merging intervals refers to the process of combining overlapping or adjacent intervals into a consolidated or simplified form. An interval, in this context, is a range of values defined by a start point and an end point. When working with sets of intervals, merging them can reduce redundancy and simplify data representation.
+
+        For example, if you have intervals [1,3],[2,6],[8,10],[15,18] the second interval overlaps with the first one.
+              </p>
+
+        
+      </p>
+      
+  <h2>Merge Intervals</h2>
+
+  <form id="intervalForm">
+    <label for="intervalsInput">Enter intervals (e.g., [[1,3],[2,6],[8,10],[15,18]]):</label>
+    <input type="text" id="intervalsInput" required>
+    <button type="button" onclick="mergeIntervals()">Merge Intervals</button>
+  </form>
+
+  <div id="output"></div>
+
+    <footer class="footer footer-dark">
+      <div class="d-flex justify-content-center px-5">
+        <div>
+          <button
+            onclick="setTheme('#1A4B84')"
+            class="theme-switch theme-switch-chathams_blue"
+          ></button>
+          <button
+            onclick="setTheme('#991E14')"
+            class="theme-switch theme-switch-tamarillo"
+          ></button>
+          <button
+            onclick="setTheme('#FEAD06')"
+            class="theme-switch theme-switch-yellow_sea"
+          ></button>
+        </div>
+        
+      </div>
+    </footer>
+    <script src="assets/js/merge.js"></script>
+  </body>
+</html>
